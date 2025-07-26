@@ -8,7 +8,37 @@ ChromaDB in memory vectorestore has been used in this project.
 * Wikipedia Integration: Get quick facts and information from Wikipedia for general knowledge queries.
 * ArXiv Search: Seamlessly query the ArXiv scientific pre-print archive for research papers and summaries.
 * Fast Responses: Powered by Groq's high-speed inference engine for Llama3-70B-8192
-## Setup- installatiom
-1. clone repository:
-   git clone <your-repository-url>
-cd research-assistant-ai  Replace with your project folder name
+## Setup- installation
+## 1. clone repository:</br>
+git clone https //github.com/493g/Research-Assistant.git \
+cd Research-Assistant
+
+## 2. Create a virtual environment :</br>
+python -m venv venv \
+.\venv\Scripts\activate
+## 3. Install dependencies/
+pip install -r requirements.txt
+## 4. This project requires Groq API key and HuggingFace token:
+* Go to GroqConsole
+* Sign up or login.
+* Navigate to "API Keys" section
+* generate a new API Key 
+   
+For HuggingFace Token:
+* Visit HuggingFace.com
+* Sign up or Login
+* Click on profile and choose Access Tokens
+* Click on Create new token
+* Select Read option, give name to you token and copy it\
+* Open project terminal, type: \
+HuggingFace-cli login \
+* Paste the token press enter , type y after this step you will be loggedin to you HuggingFace account.
+
+## 5. Create a new .env file 
+Paste your Groq api token here \
+GROQ_API_KEY="your_groq_api_key_here"
+
+## Run the Applicatiom \
+streamlit run research_assistant.py
+
+   
