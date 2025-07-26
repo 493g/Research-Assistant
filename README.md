@@ -31,7 +31,7 @@ For HuggingFace Token:
 * Click on Create new token
 * Select Read option, give name to you token and copy it\
 * Open project terminal, type: \
-HuggingFace-cli login \
+HuggingFace-cli login 
 * Paste the token press enter , type y after this step you will be loggedin to you HuggingFace account.
 
 ## 5. Create a new .env file 
