@@ -1,5 +1,5 @@
 # Research-Assistant
-This is a Research Assistant that can help you with your research work.
+This is a Research Assistant using Langchain that can help you with your research work.
 For this project I have used Llama3-70B-8192 as LLM and Qwen/Qwen3-Embedding-8B embedding model from langchain.
 ChromaDB in memory vectorestore has been used in this project.
 
