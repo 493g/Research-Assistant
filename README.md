@@ -29,7 +29,7 @@ For HuggingFace Token:
 * Sign up or Login
 * Click on profile and choose Access Tokens
 * Click on Create new token
-* Select Read option, give name to you token and copy it\
+* Select Read option, give name to you token and copy it
 * Open project terminal, type: \
 HuggingFace-cli login 
 * Paste the token press enter , type y after this step you will be loggedin to you HuggingFace account.
