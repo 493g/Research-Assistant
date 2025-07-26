@@ -1,10 +1,12 @@
-streamlit==1.36.0 # Or your local streamlit version
-langchain==0.1.20  # <--- Make sure this is your exact local version!
-langchain-community==0.0.17 # <--- Make sure this is your exact local version!
-langchain-groq==0.0.6 # <--- Make sure this is your exact local version!
-langchain-huggingface==0.0.3 # <--- Make sure this is your exact local version!
-pypdf==4.2.0 # Or pypdf2, ensure one is correct and specific
-python-dotenv==1.0.0
-chromadb==0.4.24
-# Add any other dependencies if pip show reveals them
-# like tenacity, tiktoken etc. (though often installed as sub-deps)
+streamlit
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+pypdf
+python-dotenv
+chromadb
+arxiv
+bs4
+wikipedia
+streamlit
