@@ -35,7 +35,7 @@ HuggingFace-cli login
 * Paste the token press enter , type y after this step you will be loggedin to you HuggingFace account.
 
 ## 5. Create a new .env file 
-Paste your Groq api token here \
+Paste your Groq api token here 
 GROQ_API_KEY="your_groq_api_key_here"
 
 ## Run the Applicatiom 
