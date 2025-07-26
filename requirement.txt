@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+pypdf
+python-dotenv
+chromadb
+arxiv
+bs4
+wikipedia
+streamlit
