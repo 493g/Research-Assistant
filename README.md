@@ -38,7 +38,7 @@ HuggingFace-cli login \
 Paste your Groq api token here \
 GROQ_API_KEY="your_groq_api_key_here"
 
-## Run the Applicatiom \
+## Run the Applicatiom 
 streamlit run research_assistant.py
 
    
