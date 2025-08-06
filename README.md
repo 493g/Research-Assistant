@@ -1,7 +1,7 @@
 # Research-Assistant
 This is a Research Assistant using Langchain that can help you with your research work.
 For this project I have used Llama3-70B-8192 as LLM and Qwen/Qwen3-Embedding-8B embedding model from langchain.
-ChromaDB in memory vectorestore has been used in this project. User can upload their research paper and based on the research paper LLM will generate its response, If you want to learn more about a particular topic which is not explain in the research paper, tools like arxiv and wikipedia are integrated so that user can get knowledge about a particular topic fromm multiple sources. 
+ChromaDB in memory vectorestore has been used in this project. User can upload their research paper and based on the research paper LLM will generate its response, If you want to learn more about a particular topic which is not explained in the research paper, tools like arxiv and wikipedia are integrated so that user can learn about a particular topic fromm multiple sources. 
 
 ## Features
 * Pdf Analysis : Upload your research papers (PDFs) and ask questions directly about their content. The AI will provide answers based on the provided document.
